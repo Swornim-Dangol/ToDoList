@@ -95,7 +95,7 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="todo-card">
-        <h1 className="main-title">My To-Do List</h1>
+        <h1 className="main-title">To-Do List</h1>
 
         <div className="add-task-section">
           <h2 className="section-title">Add New Task</h2>
@@ -122,7 +122,7 @@ const App = () => {
               onClick={addTodo}
               className="add-button"
             >
-              Add Task
+              ADD TASK
             </button>
           </div>
         </div>
